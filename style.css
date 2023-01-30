@@ -278,7 +278,7 @@ input[type=submit] {
 
  .label{ 
   padding-top:2rem;
-  padding-left:20rem;
+  padding-left:9rem;
   /* padding: bottom 3rem; */
   /* padding-right: 3rem;  */
   text-align: left;
@@ -295,7 +295,7 @@ input[type=submit] {
 .accordion .contentBx .label::before{
   content: "+";
   position: absolute;
-  right: 400px;
+  right: 240px;
 }
 
 .accordion .contentBx.active .label::before{
@@ -322,8 +322,8 @@ input[type=submit] {
   background-color: #d1d5d6;
   /* background-color: grey; */
   /* text-align: center; */
-  width: 80%;
-  padding-left:20rem;
+  /* width: 80%;
+  padding-left:20rem; */
   color: #2d3d21;
 }
 
