@@ -277,7 +277,7 @@ input[type=submit] {
 }
 
  .label{ 
-  padding-top:2rem;
+
   padding-left:9rem;
   /* padding: bottom 3rem; */
   /* padding-right: 3rem;  */
@@ -325,6 +325,7 @@ input[type=submit] {
   /* width: 80%;
   padding-left:20rem; */
   color: #2d3d21;
+  padding-left: 9rem;
 }
 
 
