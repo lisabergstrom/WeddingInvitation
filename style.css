@@ -336,6 +336,7 @@ input[type=submit] {
 
 .text-acc1 {
   color: #a46d6b;
+  font-size: 16px;
 }
 .accordion .contentBx.active .content {
   height: 180px;
