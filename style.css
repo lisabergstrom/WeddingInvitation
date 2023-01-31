@@ -312,7 +312,21 @@ p {
 
   .box {
       size: 14px;
+
+      
     }
+
+    .image-section {
+      display: flex;
+      flex-direction: column;
+      
+      }
+    
+      .image-section2 {
+        display: flex;
+        flex-direction: column;
+        
+        }
 
 
   /* .image3 {
