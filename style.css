@@ -11,11 +11,13 @@
   -moz-box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  
 }
 
 body {
   /* font-family: 'Merriweather Sans', sans-serif; */
   font-family: 'Poiret One', cursive;
+  font-weight: bold;
 }
 
 .hero {
@@ -332,8 +334,8 @@ input[type=submit] {
   
 }
 
-.text.acc {
-  font-size: 13px;
+.text-acc1 {
+  color: #a46d6b;
 }
 .accordion .contentBx.active .content {
   height: 180px;
