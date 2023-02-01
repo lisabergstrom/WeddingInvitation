@@ -228,7 +228,7 @@ p {
   transition: 0.4s;
   color: #2d3d21;
   font-size: 20px;
-   
+  padding-bottom: 10px;
   }
 
 .accordion .contentBx .label::before{
@@ -252,13 +252,34 @@ p {
   
 }
 
+
+.accordion .contentBx .content {
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+  color: #2d3d21;
+  
+}
+
 .accordion .contentBx.active .content {
-  height: 180px;
+  height: 350px;
   padding: 8px;
   background-color: #d1d5d6;
   color: #2d3d21;
   padding-left: 1rem;
 }
+
+
+.text-acc {
+  padding-bottom: 10px;
+}
+
+/* .text-acc {
+  padding-bottom: 0;
+} */
 
 /* MEDIA QUERIES */
 
@@ -313,7 +334,6 @@ p {
   .box {
       size: 14px;
 
-      
     }
 
     .image-section {
@@ -540,6 +560,9 @@ p {
   padding: 10px;
   box-sizing: border-box;
 }
+.content {
+  width: 815px;
+}
 
 .accordion-name{
   display: flex;
@@ -562,7 +585,7 @@ p {
 
  .label{ 
 
-  padding-left:9rem;
+  padding-left:18rem;
   text-align: left;
   outline: none;
   transition: 0.4s;
