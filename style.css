@@ -222,7 +222,7 @@ p {
 }
 
  .label{ 
-  padding-left:4rem;
+  /* padding-left:0.5rem; */
   text-align: left;
   outline: none;
   transition: 0.4s;
@@ -234,7 +234,7 @@ p {
 .accordion .contentBx .label::before{
   content: "+";
   position: absolute;
-  right: 65px;
+  right: 18px;
 }
 
 .accordion .contentBx.active .label::before{
@@ -265,7 +265,7 @@ p {
 }
 
 .accordion .contentBx.active .content {
-  height: 350px;
+  height: 260px;
   padding: 8px;
   background-color: #d1d5d6;
   color: #2d3d21;
