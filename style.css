@@ -599,7 +599,7 @@ p {
 .accordion .contentBx .label::before{
   content: "+";
   position: absolute;
-  right: 240px;
+  right: 100px;
 }
 
 .accordion .contentBx.active .label::before{
