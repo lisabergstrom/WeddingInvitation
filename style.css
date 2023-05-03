@@ -585,7 +585,7 @@ p {
 
  .label{ 
 
-  padding-left:18rem;
+  padding-left:5rem;
   text-align: left;
   outline: none;
   transition: 0.4s;
@@ -618,7 +618,7 @@ p {
 }
 
 .accordion .contentBx.active .content {
-  height: 180px;
+  height: 220px;
   padding: 8px;
   background-color: #d1d5d6;
   color: #2d3d21;
